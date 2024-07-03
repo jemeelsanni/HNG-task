@@ -22,6 +22,7 @@ main {
 
 section {
   display: flex;
+  gap: 18px;
   width: 100%;
 }
 
