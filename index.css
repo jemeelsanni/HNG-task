@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+footer {
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+section {
+  display: flex;
+  width: 100%;
+}
+
+.goals {
+  width: 70%;
+}
+
+.contact {
+  width: 30%;
+}
+
+img[data-testid="slackProfilePicture"] {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 70px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.circle {
+  list-style: circle;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  section {
+    display: block;
+    width: 100%;
+  }
+  .goals {
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 24px;
+  }
+
+  li {
+    margin-bottom: 4px;
+  }
+}
